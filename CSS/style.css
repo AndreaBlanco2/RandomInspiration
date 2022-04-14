@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Pompiere&display=swap');
+
+body {
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+.container {
+    /* border: 1px solid black; */
+
+    width: 95%;
+    height: 80vh;
+    display: flex;
+}
+
+.quotes {
+    border: 10px solid rgb(161, 202, 244);
+
+    width: 90%;
+    height: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: aliceblue;
+}
+
+.quotes p, .quotes h3 {
+    font-size: 1.5rem;
+    font-family: 'pompiere', cursive;
+}
+
+.quotes h3 {
+    opacity: 0.5;
+}
+
+.btn {
+    font-family: 'Arima Madurai', cursive;
+}
+
+@media (max-width:480px) {
+    .quotes p, .quotes h3 {
+        font-size: 1rem;
+    }
+}
+
